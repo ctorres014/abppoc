@@ -1,0 +1,6 @@
+@AbpFramework.POC.Api_HostAddress = http://localhost:5232
+
+GET {{AbpFramework.POC.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

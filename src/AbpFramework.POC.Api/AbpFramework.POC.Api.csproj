@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="8.0.1" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="8.0.1" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.SqlServer" Version="8.0.1" />
+    <PackageReference Include="Volo.Abp.Swashbuckle" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AbpFramework.Poc.Core\AbpFramework.Poc.Core.csproj" />
+    <ProjectReference Include="..\AbpFramework.Poc.Data\AbpFramework.Poc.Data.csproj" />
+  </ItemGroup>
+
+</Project>
